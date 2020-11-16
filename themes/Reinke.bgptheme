@@ -25,7 +25,7 @@ override_git_prompt_colors() {
       echo -n "${DimYellow}${Gear}\j${ResetColor} "
     fi
   }
-  GIT_PROMPT_END=" ${Jobs}${GreenBg} ${BoldWhite}${PathShort}${Green}${Block}${Arrow}${ResetColor} "
+  GIT_PROMPT_END=" ${GreenBg} ${BoldWhite}${PathShort}${Green}${Block}${Arrow}${ResetColor} "
   GIT_PROMPT_END_ROOT="${GIT_PROMPT_END} ${Lightning} "
 }
 
